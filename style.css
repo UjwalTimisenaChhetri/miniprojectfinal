@@ -1,0 +1,355 @@
+/* Setting the background color and text color for the entire page */
+body{
+    background-color: black;
+    color: white;
+}
+/* Styling for the navigation menu */
+nav ul{
+    list-style: none;
+    border: 2px solid white;
+    border-radius: 23px;
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    padding: 23px;
+    font-size: 20px;
+    
+    
+    
+}
+/* Styles for individual list items in the navigation */
+nav li{
+    display: inline;
+    padding: 23px;
+}
+/* Styles for anchor tags within list items */
+li a{
+    text-decoration: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    color:   white;
+}
+/* Hover effect for anchor tags */
+ul li a:hover{
+    
+   color: goldenrod;
+    border-radius: 10px;
+     
+}
+
+/* Styles for the header section */
+header{
+    display: block;
+    color: goldenrod;
+    /* margin: 0 325px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+   font-size: 20px;
+   background-color:black ;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   border-right:2px solid white ;
+   border-left:2px solid white ;
+   border-bottom:2px solid white ;
+   
+    
+}
+header h1{
+    text-align: center;
+}
+/* Styles for the main image of the classic car */
+.image{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 35%;
+    height: 35%;
+    margin-top: 170px;
+}
+/* Hover effect for the main image */
+.image:hover{
+    transform: scale(1.1);
+}
+/* Styling for the company logo in the header */
+.logo2{
+    position: absolute;
+    top: 10px ;
+    
+}
+/* Styles for car images within a specific section */
+.car img{
+    display: block;
+    width: 32%;
+    margin: auto;
+    
+}
+/* Heading style within a specific section */
+.car h1{
+    text-align: center;
+}
+/* Styles for headings within the 'section' element */
+section h2{
+    text-align: center;
+}
+/* Styles for paragraphs within the 'section' element */
+section p{
+    text-align: center;
+    
+}
+/* Styles for links within the 'section' element */
+section a{
+    border: 2px solid black ;
+   margin: 0 666px;
+   text-decoration: none;
+   background-color:goldenrod ;
+    color: black;
+    font-size: 20px;
+    border-radius: 11px;
+    
+}
+/* Styles for the 'Customer Feedback' section heading */
+.para h2{
+    text-align: center;
+    color: white;
+}
+/* Styles for paragraphs within the 'Customer Feedback' section */
+
+.para p{
+    text-align: center;
+}
+/* Styles for links within the 'Customer Feedback' section */
+.para a{
+    margin: 0 640px;
+    text-decoration: none;
+    color: black;
+    background-color:goldenrod;
+    font-size: 20px;
+    border: 2px solid black ;
+    border-radius: 11px;
+}
+/* Styles for headings within the '#imgs' section */
+#imgs h1{
+    text-align: center;
+    color: goldenrod;
+}
+/* Styles for images within the '#imgs' section */
+#imgs img{
+    display: block;
+    margin: auto;
+    width: 40%;
+    height: 40%;
+}
+/* Heading styles within div elements */
+div h2{
+    text-align: center;
+    color: goldenrod;
+}
+/* Styles for paragraphs within div elements */
+#imgs div p{
+    margin: 0 400px;
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px white;
+    padding: 22px;
+}
+/* Styles for the 'Contact' section */
+legend{
+    text-align: center;
+    font-size: 23px;
+}
+/* Styles for form elements */
+fieldset{
+    /* box-shadow: 10px 10px rgb(163, 83, 83); */
+    display: block;
+    
+    background-color:black;
+   
+    text-align: center;
+}
+/* Styles for input elements */
+input{
+    
+    margin: 23px 0;
+}
+/* Styles for the 'Gallery' section */
+#Gallery{
+    z-index: -1;
+    margin-top: 10px;
+    border: 2px solid white;
+    position: relative;
+    height: 700px;
+    margin-bottom: 15px;
+}
+ #Gallery h1{
+    text-align: center;
+    color: goldenrod;
+ }
+ /* Styles for images within the 'Gallery' section */
+#Gallery img{
+    position: relative;
+}
+/* Specific styles for individual images within the 'Gallery' section */
+/* .gal{
+    
+} */
+.ler{
+    top: 140px;
+    right: 200px;
+
+}
+.yy{
+    
+    right: 250px;
+}
+.mer{
+    right: 254px;
+    top: 20px;
+}
+.ced{
+    right: 700px;
+    top: 190px;
+}
+.benz{
+    top: 20px;
+    left: 730px;
+}
+.car1{
+    top:159px;
+}
+.car31{
+    top:190px;
+}
+.car3{
+    bottom: 195px;
+    left: 208px;
+}
+.convert{
+    bottom: 398px;
+    left: 864px;
+}
+.wh{
+    bottom: 25px;
+    right: 250px;
+}
+.it{
+    bottom: 200px;
+    left: 500px;
+}
+.ee{
+    bottom: 20px;
+    left: 100px;
+}
+/* Styles for card images */
+.card img{
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+/* Styles for the sidebar menu */
+#sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: black;
+    color: beige;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border: 2px solid white;
+}
+/* Styles for links within the sidebar */
+#sidebar a{
+    padding: 16px;
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+/* Styles for the container holding favorite car items */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+/* Styles for individual card elements */
+.card{
+    flex: 0 0 calc(23.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0px 4px 8px white;
+    background-color:black ; 
+    border-radius: 8px;
+    margin: 10px;
+}
+/* Styles for the 'Add to Your Favorite' section heading */
+.fav{
+    color: goldenrod;
+    text-align: center;
+}
+/* Specific styles for the 'Deals' section */
+.deal{
+    border: 2px solid white;
+    box-shadow: 0px 4px 8px white;
+    height: 600px;
+    position: relative;
+    z-index: -1;
+}
+/* Styles for the 'Deals' section headings */
+.deal h1{
+    color: goldenrod;
+    font-size: 40px;
+}
+/* Styles for text within the 'Deals' section */
+.deal .de{
+    position: relative;
+    display: inline;
+    top: 50px;
+    left: 170px;
+}
+.deal .al{
+    position: relative;
+    display: inline;
+    top: 90px;
+    right: 20px;
+}
+.deal img{
+    position: relative;
+}
+.deal .la{
+    top: 90px;
+    left: 200px;
+}
+.deal .st{
+
+    top: 300px;
+    left: 130px;
+}
+.deal .im{
+    top: 90px;
+    left: 80px;
+}
+.deal p{
+    margin-top: 200px;
+    margin-left: 180px;
+    color: goldenrod;
+    font-family: cursive;
+}
+
+
+
+
